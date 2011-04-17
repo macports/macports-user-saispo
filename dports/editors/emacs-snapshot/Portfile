@@ -1,3 +1,5 @@
+$Id$
+
 PortSystem 1.0
 PortGroup  muniversal 1.0
 
@@ -41,6 +43,7 @@ use_xz	yes
 
 depends_build   port:pkgconfig \
                 bin:unlzma:lzmautils 
+
 depends_lib     port:ncurses \
                 port:dbus \
                 port:texinfo
